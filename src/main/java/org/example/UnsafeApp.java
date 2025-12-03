@@ -16,7 +16,7 @@ public class UnsafeApp {
             
             String inputId = scanner.nextLine();
 
-            // ВРАЗЛИВІСТЬ: Пряма склейка рядків
+            // Пряма склейка рядків
             String sql = "DELETE FROM student WHERE id = " + inputId; 
             
             System.out.println("Виконується SQL: " + sql);
